@@ -17,7 +17,7 @@ interface ICurso {
   tipo: TipoCurso,
   semestres: number,
   cargaHoraria: number,
-  modalidade: IModalidade[],
+  modalidades: IModalidade[],
   disciplinas: IDisciplina[]
 }
 
@@ -27,7 +27,7 @@ const design: ICurso = {
   tipo: "Bacharelado",
   semestres: 8,
   cargaHoraria: 2400,
-  modalidade: [
+  modalidades: [
     {
       descricao: "Presencial",
       preco: 1087.95,
@@ -59,7 +59,7 @@ const designGraficoBacharelado: ICurso = {
   tipo: "Bacharelado",
   semestres: 8,
   cargaHoraria: 2900,
-  modalidade: [
+  modalidades: [
     {
       descricao: "Presencial",
       preco: 1006.90,
@@ -93,7 +93,7 @@ const designGraficoTecnologo: ICurso = {
   tipo: "Tecnólogo",
   semestres: 4,
   cargaHoraria: 1670,
-  modalidade: [
+  modalidades: [
     {
       descricao: "Presencial",
       preco: 989.88,
@@ -132,7 +132,7 @@ const designDeGames: ICurso = {
   tipo: "Bacharelado",
   semestres: 8,
   cargaHoraria: 3070,
-  modalidade: [
+  modalidades: [
     {
       descricao: "Presencial",
       preco: 996.87,
@@ -172,7 +172,7 @@ const designDeAnimacao: ICurso = {
   tipo: "Bacharelado",
   semestres: 8,
   cargaHoraria: 2900,
-  modalidade: [
+  modalidades: [
     {
       descricao: "Presencial",
       preco: 983.71,
